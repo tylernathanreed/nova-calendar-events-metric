@@ -10,4 +10,14 @@ This package implements a new type of metric, being specifically intended for sh
 
 Here's some examples of the metric being used in the wild:
 
-...
+**Holidays**
+
+![Holidays](https://github.com/tylernathanreed/nova-calendar-events-metric/blob/master/docs/example-holidays.png)
+
+**Meetings**
+
+![Meetings](https://github.com/tylernathanreed/nova-calendar-events-metric/blob/master/docs/example-meetings.png)
+
+**Time Off**
+
+![Time Off](https://github.com/tylernathanreed/nova-calendar-events-metric/blob/master/docs/example-time-off.png)
