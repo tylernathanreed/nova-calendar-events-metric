@@ -1,0 +1,28 @@
+{
+    "name": "reedware/nova-calendar-events-metric",
+    "description": "Provides a new metric for displaying calendar events.",
+    "type": "library",
+    "keywords": ["laravel", "nova", "calendar", "card", "metric"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "authors": [
+        {
+            "name": "Tyler Reed",
+            "email": "tylernathanreed@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Reedware\\NovaCalendarEventsMetric\\" : "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reedware\\NovaCalendarEventsMetric\\ComponentServiceProvider"
+            ]
+        }
+    }
+}
