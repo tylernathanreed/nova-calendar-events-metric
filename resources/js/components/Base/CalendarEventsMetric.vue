@@ -47,7 +47,7 @@
                 </div>
                 <div class="mt-2 flex-1">
                     <div class="pl-2 border-l border-70">
-                        <div v-text="event.subject" class="font-bold text-80" :class="{'leading-loose py-1': !event.description}"/>
+                        <div v-text="event.subject" class="font-bold text-80" :class="{'leading-loose py-px mb-px': !event.description}"/>
                         <div v-text="event.description" class="text-sm text-90"/>
                     </div>
                 </div>
